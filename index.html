@@ -52,38 +52,37 @@
                             寄送方式：校內展(元智大學)、校外展(松菸3號倉庫)自取 or 超商自取(需自付$35運費)
                         </p>
                         <form method="post" name="contact-form">
-                            <input type="text" class="text" name="your-name" placeholder="請輸入姓名" required="">
-                            <input type="tel" class="phone" name="your-phone" placeholder="請輸入電話號碼" required="">
-                            <input type="email" class="email" name="your-email" placeholder="請輸入電子郵件" required="">
-                            <input type="ig" class="ig" name="your-ig" placeholder="請輸入IG帳號">
+                            <input type="text" class="text" name="訂購人姓名" placeholder="請輸入姓名" required="">
+                            <input type="tel" class="phone" name="電話" placeholder="請輸入電話號碼" required="">
+                            <input type="email" class="email" name="Email" placeholder="請輸入電子郵件" required="">
+                            <input type="ig" class="ig" name="IG" placeholder="請輸入IG帳號">
 
                             <!-- Radio button options 的HTML部分 -->
                             <div class="number-btn-group" required="">
                                 <label for="number-title" class="number-title">請選擇小瓶香水(1 mL)購買數量</label>
                                 <div class="number-btn">
                                     <div class="custom-radio">
-                                        <input type="radio" id="option-zero-small" name="select-small-num" value="0"
-                                            checked>
+                                        <input type="radio" id="option-zero-small" name="選擇小瓶數量" value="0" checked>
                                         <label for="option-zero-small">0</label>
                                     </div>
                                     <div class="custom-radio">
-                                        <input type="radio" id="option-one-small" name="select-small-num" value="1">
+                                        <input type="radio" id="option-one-small" name="選擇小瓶數量" value="1">
                                         <label for="option-one-small">1</label>
                                     </div>
                                     <div class="custom-radio">
-                                        <input type="radio" id="option-two-small" name="select-small-num" value="2">
+                                        <input type="radio" id="option-two-small" name="選擇小瓶數量" value="2">
                                         <label for="option-two-small">2</label>
                                     </div>
                                     <div class="custom-radio">
-                                        <input type="radio" id="option-three-small" name="select-small-num" value="3">
+                                        <input type="radio" id="option-three-small" name="選擇小瓶數量" value="3">
                                         <label for="option-three-small">3</label>
                                     </div>
                                     <div class="custom-radio other-option">
-                                        <input type="radio" id="option-other" name="select-small-num" value="other">
+                                        <input type="radio" id="option-other" name="選擇小瓶數量" value="other">
                                         <label for="option-other">其他</label>
 
-                                        <input type="text" id="other-number" class="other-number-input"
-                                            name="other-number" pattern="\d*" placeholder="數量" min="1" max="99">
+                                        <input type="text" id="other-number" class="other-number-input" name="選擇小瓶其他數量"
+                                            pattern="\d*" placeholder="數量" min="1" max="99">
                                     </div>
                                 </div>
                             </div>
@@ -92,37 +91,36 @@
                                 <label for="number-title" class="number-title">請選擇大瓶香水(7 mL)購買數量</label>
                                 <div class="number-btn">
                                     <div class="custom-radio">
-                                        <input type="radio" id="option-zero-big" name="select-big-num" value="0"
-                                            checked>
+                                        <input type="radio" id="option-zero-big" name="選擇大瓶數量" value="0" checked>
                                         <label for="option-zero-big">0</label>
                                     </div>
                                     <div class="custom-radio">
-                                        <input type="radio" id="option-one-big" name="select-big-num" value="1">
+                                        <input type="radio" id="option-one-big" name="選擇大瓶數量" value="1">
                                         <label for="option-one-big">1</label>
                                     </div>
                                     <div class="custom-radio">
-                                        <input type="radio" id="option-two-big" name="select-big-num" value="2">
+                                        <input type="radio" id="option-two-big" name="選擇大瓶數量" value="2">
                                         <label for="option-two-big">2</label>
                                     </div>
                                     <div class="custom-radio">
-                                        <input type="radio" id="option-three-big" name="select-big-num" value="3">
+                                        <input type="radio" id="option-three-big" name="選擇大瓶數量" value="3">
                                         <label for="option-three-big">3</label>
                                     </div>
                                     <div class="custom-radio other-option">
-                                        <input type="radio" id="option-other-big" name="select-big-num" value="other">
+                                        <input type="radio" id="option-other-big" name="選擇大瓶數量" value="other">
                                         <label for="option-other-big">其他</label>
 
                                         <input type="text" id="other-number-big" class="other-number-input"
-                                            name="other-number-big" pattern="\d*" placeholder="數量" min="1" max="99">
+                                            name="選擇大瓶其他數量" pattern="\d*" placeholder="數量" min="1" max="99">
                                     </div>
                                 </div>
                             </div>
 
                             <div class="loc-btn-group">
                                 <label for="loc-title" class="loc-title">領取地點</label>
-                                <select name="select-loc" id="">
-                                    <option value="1">校外展</option>
-                                    <option value="2">超商自取</option>
+                                <select name="領取方式" id="">
+                                    <option value="校外展">校外展</option>
+                                    <option value="超商自取">超商自取</option>
                                 </select>
                             </div>
 
